@@ -1,0 +1,89 @@
+body {
+  background-image: linear-gradient(rgb(248, 247, 246), grey);
+}
+.btn-outline-success:hover,
+.navbar-brand:hover,
+.nav-link:hover {
+  background-color: orangered;
+  border-color: orangered;
+  border-radius: 5px;
+}
+#order {
+  color: orangered;
+}
+#order:hover {
+  color: white;
+}
+
+.btn-outline-success {
+  color: orangered;
+  border-color: orangered;
+}
+
+.navbar-brand {
+  padding: 5px;
+}
+.card {
+  background-color: orange;
+  height: 150px;
+}
+
+.container-halloween-banner {
+  background-image: url(icons/concept.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 90vh;
+  width: 98.7vw;
+}
+
+.accordion-item,
+.accordion-button {
+  background-color: orange;
+}
+
+#freepik {
+  text-decoration: none;
+  color: orangered;
+}
+.alert {
+  margin-bottom: 0;
+}
+
+.container-halloween-cookies {
+  color: var(--halloween-black);
+  flex-wrap: wrap;
+}
+
+.container-halloween-cookies img {
+  width: 50%;
+  margin: auto;
+  padding: 25px;
+}
+
+.container-halloween-cookies .card {
+  height: 450px;
+}
+
+.button-halloween-orange {
+  background-color: black;
+  color: white;
+}
+
+.button-halloween-orange:hover {
+  color: orange;
+}
+
+#call,
+#emailus {
+  text-decoration: none;
+  color: orangered;
+  padding: 3px;
+  border-radius: 5px;
+  margin: 5px;
+}
+#call:hover,
+#emailus:hover {
+  color: black;
+  background-color: orangered;
+}
